@@ -1,112 +1,40 @@
 <!DOCTYPE html>
-<html lang="nl">
-    <head>
-        <meta charset="utf-8"> 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
-        <title>Startpagina v3.0</title>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu+Mono">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Architects+Daughter">
-        <style>
-
-            body {
-                background-color: #ebe7e8;
-                /* background-color: #e4bb07; */
-            }
-            h1 {
-                margin: 0;
-                margin-bottom: 3%;
-                font-family: 'Ubuntu Mono', serif;
-                font-size: 96px;
-                color: #4390e8;
-            }
-            h2 {
-                margin: 0;
-                margin-top: 6%;
-                font-family: 'Ubuntu Mono', serif;
-                font-size: 36px;
-            }
-
-            h5 {
-                font-family: 'Courier New', Courier, monospace;
-                font-size: 36px;
-                margin: -40px 0 20px 0;
-            }
-            
-            h2,h5 {
-                color: #696364;
-            }
-
-            a {
-                font-family: 'Architects Daughter', serif;  
-                font-size: 24px;
-                color: #198aaf;
-                background-color: wheat;
-                text-decoration: none;
-                border-radius: 15%;
-                margin: 10px;
-                padding: 5px;
-            }
-            
-            a:hover {
-                background-color: yellow;
-            }     
-            
-            a {
-                font-size: 48px;
-                color: #1FABDA;
-            }
-
-            #lijstje a {
-                font-size: 24px;
-                background-color: transparent;
-            }
-
-            #container {
-                width: 65%;
-                margin: auto;
-                margin-top: 5%;
-                padding: 5%;
-                text-align: center;
-                border-left: 4px solid grey;
-                border-right: 4px solid grey;
-            }
-        </style>
-    </head>
-    <body>
-        <div id="container">
-            <h1>startpagina</h1>
-            <h5>&#8645; versie 3.0</h5>
-            <a href="voorbeeldenVanVNR/index.html">VB</a>
-            <a href="bronnen/index.html">links</a>
-            <a href="oefenen/index.html">oefenen</a>
-            <a href="overMij/index.html">overMij</a>
-            <a href="PO/index.html">PO</a>
-            <h2>Snelklik</h2>
-            <!-- sorry, dit is een beetje sloppy -->
-            <div id="lijstje">
-                <!--
-                <a href="PO/PO_website_HTML_CSS_2022-2023_havo.pdf" target="_blank">PO havo</a> | 
-                <a href="PO/PO_website_HTML_CSS_2022-2023_vwo.pdf" target="_blank">PO vwo</a>
-                <br>
-                <a href ="overMij/TO_HTML_CSS_ 2022.pdf" target="_blank">TO over Mij</a><br>
-                -->
-                <a href ="https://www.codecademy.com/" target="_blank">Codecademy</a><br>
-                <a href ="https://github.com/" target="_blank">GitHub</a> (&& <a href ="https://www.gitpodstatus.com/" target="_blank">status</a>)<br>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vakantie Inspiratie.nl</title>
+    <link rel="stylesheet" type="text/css" href="opmaak.css">
+</head>
+<body>
+    <header>
+        <img src="/foto's/vakantie-inspiratie-logo.png" alt="Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/bestemmingen/index.html">Bestemmingen</a></li>
+                <li><a href="https://www.globehopper.nl/vakantiewijzer/?msclkid=3f46972b1ddc1bde9e52f26fc5605daf&utm_source=bing&utm_medium=cpc&utm_campaign=Vakantiewijzer&utm_term=welke%20vakantie%20past%20bij%20mij%20test&utm_content=Vakantiewijzer%20Advertentiegroep" target="_blank" class="button">Doe een test!</a></li>
+                <li><a href="/Contact/index.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="intro">
+            <img src="/foto's/bron-vakantie-inspiratie.png" alt="uw Inspiratie">
+            <div id="image-container">
+                <img src="/foto's/beach.jpg" alt="strandvakantie">
+                <img src="/foto's/Parijs.jpg" alt="Parijs">
+                <img src="/foto's/mountain.png" alt="Vakantie in de bergen">
+                <img src="/foto's/city.jpg" alt="Steden uitje">
+                <img src="/foto's/dorpje.jpg" alt="schattig dorpje">
+                <img src="/foto's/timesquare.jpg" alt="Newyork">
             </div>
-            <p>
-                <!-- https://www.w3.org/QA/Tools/Icons -->
-                <a href="https://validator.w3.org/nu/">
-                    <img style="border:0;width:88px;height:31px"
-                        src="https://www.w3.org/Icons/valid-html401-blue"
-                        alt="Valide CSS!" />
-                </a>
-                <a href="https://jigsaw.w3.org/css-validator/check/referer">
-                    <img style="border:0;width:88px;height:31px"
-                        src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
-                        alt="Valide CSS!" />
-                </a>
-            </p>
-        </div>
-    </body>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Vakantie Inspiratie.nl - mede mogelijk gemaakt door David</p>
+    </footer>
+</body>
 </html>
